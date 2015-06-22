@@ -60,7 +60,7 @@
         pin@p40 { function = "pwm";     termination = "no_pulling"; }; // LED_PWM
         pin@p41 { function = "output";  termination = "no_pulling"; }; // LAN_RUN
         pin@p42 { function = "gp_clk";  termination = "no_pulling"; }; // ETH_CLK (GPCLK1)
-        pin@p43 { function = "output";  termination = "pull_down";  polarity = "active_high"; startup_state = "inactive"; }; // LEDS_ON
+        pin@p43 { function = "output";  termination = "pull_down";  polarity = "active_high"; startup_state = "active"; }; // LEDS_ON
         pin@p44 { function = "i2c1";    termination = "no_pulling"; }; // SDA1
         pin@p45 { function = "i2c1";    termination = "no_pulling"; }; // SCL1
 
